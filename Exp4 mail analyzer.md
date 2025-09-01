@@ -33,19 +33,19 @@ By analyzing headers, we can identify:
 
 **Step-1:** First, get the email header. In Gmail, select the mail, click the three dots, and choose **Show Original**.  
 
-![](exp4/Screenshot 2025-09-01 235903.png)
+![](exp4/Screenshot%202025-09-01%20235903.png)
 
 **Step-2:** After clicking **Show Original**, you will see the raw message with sender and receiver details.  
 
-![](exp4/Screenshot 2025-09-01 235919.png)
+![](exp4/Screenshot%202025-09-01%20235919.png)
 
 **Step-3:** Use the **Mail Header Analyzer tool** for easy reading and analysis.  
 
-![](exp4/Screenshot 2025-09-02 000000.png)
+![](exp4/Screenshot%202025-09-02%20000000.png)
 
 **Step-4:** Copy and paste the entire header text into the tool and click **Analyze Header**.  
 
-![](exp4/Screenshot 2025-09-02 000228.png)
+![](exp4/Screenshot%202025-09-02%20000228.png)
 
 **Step-5:** Identify key header fields:  
 - From  
@@ -57,22 +57,22 @@ By analyzing headers, we can identify:
 - Message-ID  
 - SPF / DKIM / DMARC  
 
-![](exp4/Screenshot 2025-09-02 000519.png)
+![](exp4/Screenshot%202025-09-02%20000519.png)
 
 **Step-6:** Check for IP addresses and hostnames.  
 - Use tools like **WHOIS** or online IP lookup services to identify the geographical location and ownership of IP addresses found in the *Received* lines.  
-- Verify if any IPs are suspicious or if the hostname doesn’t match the expected sending server.
+- Verify if any IPs are suspicious or if the hostname doesn’t match the expected sending server.  
 
-![](exp4/Screenshot 2025-09-02 000708.png)
+![](exp4/Screenshot%202025-09-02%20000708.png)
 
 **Step-7:** Examine the SPF, DKIM, and DMARC results:  
 - **SPF (Sender Policy Framework):** Checks if the sender’s server/IP is authorized for that domain.  
 - **DKIM (DomainKeys Identified Mail):** Ensures the email content wasn’t changed.  
-- **DMARC (Domain-based Message Authentication, Reporting & Conformance):** Provides domain-level email authentication, policy, and reporting.
+- **DMARC (Domain-based Message Authentication, Reporting & Conformance):** Provides domain-level email authentication, policy, and reporting.  
 
-![](exp4/Screenshot 2025-09-02 000732.png)
-![](exp4/Screenshot 2025-09-02 000745.png)
-![](exp4/Screenshot 2025-09-02 000757.png)
+![](exp4/Screenshot%202025-09-02%20000732.png)  
+![](exp4/Screenshot%202025-09-02%20000745.png)  
+![](exp4/Screenshot%202025-09-02%20000757.png)  
 
 ---
 
