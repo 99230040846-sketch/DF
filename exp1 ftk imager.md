@@ -29,7 +29,7 @@ To capture RAM data and create a forensic disk image using FTK Imager.
 
 **Step-1:** Right click on the FTK Imager tool and select **Run as administrator**.  
 
-https://github.com/99230040846-sketch/DF/blob/1cf457f6f118af64e2c5af61ea65c9358449424b/exp1/Screenshot%202025-09-01%20221916.png
+![exp1 image](exp1/exp1/Screenshot 2025-09-01 221916.png)
 
 **Step-2:** On the top menu bar, click **File** and select **Capture Memory** from the drop-down list.  
 
