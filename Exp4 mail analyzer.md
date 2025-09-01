@@ -57,13 +57,13 @@ By analyzing headers, we can identify:
 - Message-ID  
 - SPF / DKIM / DMARC  
 
-![](exp4/Screenshot%202025-09-02%20000519.png)
+![](exp4/Screenshot%202025-09-02%20000708.png)
 
 **Step-6:** Check for IP addresses and hostnames.  
 - Use tools like **WHOIS** or online IP lookup services to identify the geographical location and ownership of IP addresses found in the *Received* lines.  
 - Verify if any IPs are suspicious or if the hostname doesn’t match the expected sending server.  
 
-![](exp4/Screenshot%202025-09-02%20000708.png)
+![](exp4/Screenshot%202025-09-02%20000519.png)
 
 **Step-7:** Examine the SPF, DKIM, and DMARC results:  
 - **SPF (Sender Policy Framework):** Checks if the sender’s server/IP is authorized for that domain.  
