@@ -41,14 +41,16 @@ It allows forensic investigators and security analysts to:
 
 **Step-3:** After starting packet capture, go to a website and log in with credentials.  
 
-![](exp3/Screenshot%202025-09-01%20234701.png)
+![](exp3/Screenshot%202025-09-01%20235058.png)
 
 **Step-4:** Return to Wireshark and apply filters like **HTTP** to find HTTP packets on the network.  
 
-![](exp3/Screenshot%202025-09-01%20234727.png)
+![](exp3/Screenshot%202025-09-01%20234701.png)
 
 **Step-5:** Some HTTP packets will be captured. We specifically look for **form data** that the user submitted to the website.  
 - We have two main methods used for submitting form data from web pages like login forms to the server: **GET** & **POST**  
+
+![](exp3/Screenshot%202025-09-01%20234727.png)
 
 **Step-6:** To check credentials in requests sent via the **GET method**, apply this filter:  
 - http.request.method == "GET"  
@@ -58,7 +60,7 @@ It allows forensic investigators and security analysts to:
 **Step-7:** If credentials are not found with GET, apply the **POST method filter**:  
 - http.request.method == "POST"  
 
-![](exp3/Screenshot%202025-09-01%20235058.png)
+(no screenshot here, since the previous Step 7 image was moved up)
 
 As you analyze the HTML form in POST requests, you can view user credentials (e.g., username and password).  
 Example:  
