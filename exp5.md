@@ -39,13 +39,13 @@ To create a forensic case, add disk image evidence, and analyze findings using t
 ![Step 6](exp5/step6.jpg)
 
 **Step-7:** Explore evidence using the Tree Viewer, reviewing file system, artifacts, web history, and communications.
-![Step 7](exp5/step7.jpg)
+![Step 7](exp5/step9.jpg)
 
-**Step-8:** Use keyword search, timeline, and artifact modules for deeper investigation.
-![Step 8](exp5/step8.jpg)
+**Step-8:** Select the type of report format to generate report.
+![Step 8](exp5/step7.jpg)
 
 **Step-9:** Generate the investigation report in your chosen format (HTML, CSV, Excel).
-![Step 9](exp5/step9.jpg)
+![Step 9](exp5/step8.jpg)
 
 **Step-10:** Review final reports, validate important evidence, and archive/close the case.
 ![Step 10](exp5/step4.jpg)
@@ -72,6 +72,7 @@ A forensic case was created, disk image evidence imported, findings analyzed, an
 Autopsy provides a robust suite for digital forensic investigations, combining acquisition, modular analysis, and reporting in a user-friendly workflow.
 
 ---
+
 
 
 
