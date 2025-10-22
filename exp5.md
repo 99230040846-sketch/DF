@@ -30,7 +30,7 @@ To create a forensic case, add disk image evidence, and analyze findings using t
 ![Step 3](exp5/step3.jpg)
 
 **Step-4:** Click **Add Data Source**, choose **Image File**, and browse for your evidence file.
-![Step 4](exp5/step4.jpg)
+![Step 4](exp5/step10.jpg)
 
 **Step-5:** Select and configure the ingest modules for analysis (File Type Identification, Hash Lookup, etc.).
 ![Step 5](exp5/step5.jpg)
@@ -72,5 +72,6 @@ A forensic case was created, disk image evidence imported, findings analyzed, an
 Autopsy provides a robust suite for digital forensic investigations, combining acquisition, modular analysis, and reporting in a user-friendly workflow.
 
 ---
+
 
 
