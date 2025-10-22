@@ -48,7 +48,7 @@ To create a forensic case, add disk image evidence, and analyze findings using t
 ![Step 9](exp5/step9.jpg)
 
 **Step-10:** Review final reports, validate important evidence, and archive/close the case.
-![Step 10](exp5/step10.jpg)
+![Step 10](exp5/step4.jpg)
 
 ---
 
@@ -72,4 +72,5 @@ A forensic case was created, disk image evidence imported, findings analyzed, an
 Autopsy provides a robust suite for digital forensic investigations, combining acquisition, modular analysis, and reporting in a user-friendly workflow.
 
 ---
+
 
