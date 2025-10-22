@@ -21,10 +21,10 @@ To create a forensic case, add disk image evidence, and analyze findings using t
 ## Procedure
 
 **Step-1:** Launch Autopsy and open the welcome screen.
-![Step 1](exp5/step1.jpg)
+![Step 1](exp5/step2.jpg)
 
 **Step-2:** Click **New Case** and enter details like Case Name, Case Number, Examiner Name, and save location.
-![Step 2](exp5/step2.jpg)
+![Step 2](exp5/step1.jpg)
 
 **Step-3:** Prepare your evidence files (.E01) and ensure they are available (for example, check Downloads folder).
 ![Step 3](exp5/step3.jpg)
@@ -72,3 +72,4 @@ A forensic case was created, disk image evidence imported, findings analyzed, an
 Autopsy provides a robust suite for digital forensic investigations, combining acquisition, modular analysis, and reporting in a user-friendly workflow.
 
 ---
+
