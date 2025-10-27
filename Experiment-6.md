@@ -35,7 +35,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```
     Note the Start Sector of the partition (e.g., 2048).
 
-    ![mmls output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222452.png)
+    ![mmls output](Output%20Screenshot/Exp6/mlms.png)
 
 <!-- [Insert Screenshot: Place the screenshot of mmls command output showing partition table] -->
 
