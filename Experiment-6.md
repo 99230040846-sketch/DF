@@ -43,7 +43,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fsstat -o 63 Evidence.raw
     ```
-    ![fsstat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222446.png)
+    ![fsstat output](exp6/fsstat.png)
 
     <!-- [Insert Screenshot: Place the screenshot showing file system information] -->
 
@@ -52,15 +52,13 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fls -o 63 Evidence.dd
     ```
-    ![fls output 1](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20224310.png)
-    ![fls output 2](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222608.png)
-    <!-- [Insert Screenshot: Place the screenshot showing file listing] -->
+    ![fls output 1](exp6/fls.png)
 
 2. Use `icat` to extract files using their inode numbers and to recover
     ```bash
     icat evidence_disk.dd inode_number > recovered_file
     ```
-    ![icat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222954.png)
+    ![icat output](exp6/icat.png)
 
     <!-- [Insert Screenshot: Place the screenshot of file recovery process] -->
 
@@ -87,7 +85,7 @@ ils evidence_disk.dd
     ```bash
     istat -o 63 Evidence 6342-128-4
     ```
-![istat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222950.png)
+![istat output](exp6/isstat.png)
 
 ---
 
