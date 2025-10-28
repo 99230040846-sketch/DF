@@ -60,8 +60,6 @@ It allows forensic investigators and security analysts to:
 **Step-7:** If credentials are not found with GET, apply the **POST method filter**:  
 - http.request.method == "POST"  
 
-(no screenshot here, since the previous Step 7 image was moved up)
-
 As you analyze the HTML form in POST requests, you can view user credentials (e.g., username and password).  
 Example:  
 - Form item: "uname" = "naganand"  
